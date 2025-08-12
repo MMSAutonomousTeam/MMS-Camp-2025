@@ -71,7 +71,7 @@
 
 ## Physical Space (Environment)
 
-    ![1754480944254](image/README/1754480944254.jpg)
+![1754480944254](image/README/1754480944254.jpg)
 
 ### 🔹 Definition
 
@@ -94,7 +94,7 @@ The environment in path planning is not a virtual or abstract concept—it's the
 
 ## Configuration Space (C-space) in Path Planning
 
-    ![1754481333018](image/README/1754481333018.png)
+![1754481333018](image/README/1754481333018.png)
 
 ### 🔹 What is C-space?
 
@@ -134,7 +134,7 @@ C-space allows planners to:
 
 ## Discretization in Path Planning
 
-    ![1754075272705](image/README/1754075272705.png)
+![1754075272705](image/README/1754075272705.png)
 
 ### What is Discretization?
 
@@ -303,15 +303,15 @@ Once the space is decomposed, path planning reduces to:
 
 ![1754480531179](image/README/1754480531179.png)
 
-    ![1754480588961](image/README/1754480588961.jpg)
+![1754480588961](image/README/1754480588961.jpg)
 
-    ![1754480607842](image/README/1754480607842.jpg)
+ ![1754480607842](image/README/1754480607842.jpg)
 
-    ![1754480618760](image/README/1754480618760.jpg)
+![1754480618760](image/README/1754480618760.jpg)
 
-    ![1754480749639](image/README/1754480749639.jpg)
+![1754480749639](image/README/1754480749639.jpg)
 
-    ![1754480636244](image/README/1754480636244.jpg)
+![1754480636244](image/README/1754480636244.jpg)
 
 ---
 
