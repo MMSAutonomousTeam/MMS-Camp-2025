@@ -29,7 +29,8 @@
 
 **any physical object to be controlled (such as a mechanicaldevice, a heating furnace, a chemical reactor, or a spacecraft) is called a plant**
 
-![1754842984122](image/Kinematics/1754842984122.png)
+![1754842984122](image/Kinematics/1754842984122.png)<img width="405" height="326" alt="1754842984122" src="https://github.com/user-attachments/assets/2d480f9c-947b-45a7-9880-6bf440ffc58a" />
+
 
 ### Process
 
@@ -47,7 +48,8 @@
 
 **The control signal or manipulated variable is the quantity or condition that is varied by the controller so as to affect the value of the controlled variable**
 
-![1754843106144](image/Kinematics/1754843106144.png)
+![1754843106144](image/Kinematics/1754843106144.png)<img width="550" height="166" alt="1754843106144" src="https://github.com/user-attachments/assets/be7838f2-2ba1-43eb-9c13-a17fabfe7e0f" />
+
 
 ### Disturbances
 
@@ -55,11 +57,13 @@
 
 **(described in block diagram as an input from no ware)**
 
-![1754843190506](image/Kinematics/1754843190506.png)
+![1754843190506](image/Kinematics/1754843190506.png)<img width="624" height="303" alt="1754843190506" src="https://github.com/user-attachments/assets/7ef91b20-8fe6-4469-b0ee-c9ab4a58a00d" />
+
 
 **Disturbance doesn't have a constant form of wave that may be a constant shape or random**
 
-![1754843168293](image/Kinematics/1754843168293.png)
+![1754843168293](image/Kinematics/1754843168293.png)<img width="455" height="211" alt="1754843168293" src="https://github.com/user-attachments/assets/64528e8c-7bfd-4170-8574-7f9fdd2dbe2e" />
+
 
 ---
 
@@ -77,7 +81,8 @@
 
 **In the presence of disturbances, an open-loop control system will not perform the desired task**
 
-![1754843444663](image/Kinematics/1754843444663.png)
+![1754843444663](image/Kinematics/1754843444663.png)<img width="554" height="142" alt="1754843444663" src="https://github.com/user-attachments/assets/f40f919d-5ae6-4e84-8db8-54830b3f7e11" />
+
 
 ### closed loop (feedback control)
 
@@ -85,7 +90,8 @@
 
 **We use feedback control action in order to reduce system error**
 
-![1754843460676](image/Kinematics/1754843460676.png)
+![1754843460676](image/Kinematics/1754843460676.png)<img width="434" height="280" alt="1754843460676" src="https://github.com/user-attachments/assets/991e54b0-1509-4c18-b0ff-9acb5be3c1cb" />
+
 
 ---
 
@@ -135,7 +141,7 @@
 
 **for example :**
 
-**A small cart of mass 5 kg  is placed on a horizontal surface. The coefficient of static friction is μs=0.3  and the coefficient of kinetic friction is μk=0.2 . A horizontal force F is applied to the cart in the direction of motion. Assume g=9.81 m/s^2 .**
+**A small cart of mass 5 kg  is placed on a horizontal surface. The coefficient of static friction is μs=0.3  and the coefficient of kinetic friction is μk=0.2 . A horizontal force F is applied to the cart in the direction of motion. Assume g=9.81 m/s^2**
 
 **statics : what is the minimum required force to start moving the cart**
 
@@ -190,13 +196,15 @@
 
 **These generate the desired velocities to follow a path**
 
-![1754526226605](https://file+.vscode-resource.vscode-cdn.net/c%3A/Users/Osama%20Helal/Desktop/mms%20sessions/image/session/1754526226605.png)
+![1754526226605](https://file+.vscode-resource.vscode-cdn.net/c%3A/Users/Osama%20Helal/Desktop/mms%20sessions/image/session/1754526226605.png)<img width="1299" height="781" alt="1754526226605" src="https://github.com/user-attachments/assets/1c891622-b686-4e44-a4c6-ffb8bfb7b3cd" />
+
 
 #### Position Estimation
 
 **calculate the position of the robot using its velocity and orientation**
 
-![1754526871006](https://file+.vscode-resource.vscode-cdn.net/c%3A/Users/Osama%20Helal/Desktop/mms%20sessions/image/session/1754526871006.png)
+![1754526871006](https://file+.vscode-resource.vscode-cdn.net/c%3A/Users/Osama%20Helal/Desktop/mms%20sessions/image/session/1754526871006.png)<img width="879" height="687" alt="1754526871006" src="https://github.com/user-attachments/assets/6f863e20-df56-430a-bcc1-16550c1d7bfd" />
+
 
 ---
 
@@ -208,7 +216,8 @@
 
 **The velocity is resolved into components along the x and y axes No angular rotation**
 
-![1754528519525](https://file+.vscode-resource.vscode-cdn.net/c%3A/Users/Osama%20Helal/Desktop/mms%20sessions/image/session/1754528519525.png)
+![1754528519525](https://file+.vscode-resource.vscode-cdn.net/c%3A/Users/Osama%20Helal/Desktop/mms%20sessions/image/session/1754528519525.png)<img width="530" height="392" alt="1754528519525" src="https://github.com/user-attachments/assets/fd8c60cb-6e18-4145-a09a-851538aed368" />
+
 
 #### Rigid body model
 
@@ -218,7 +227,8 @@
 
 **there is total angular rotation around an axis (z-axis in 2d typically)**
 
-![1754528694829](https://file+.vscode-resource.vscode-cdn.net/c%3A/Users/Osama%20Helal/Desktop/mms%20sessions/image/session/1754528694829.png)
+![1754528694829](https://file+.vscode-resource.vscode-cdn.net/c%3A/Users/Osama%20Helal/Desktop/mms%20sessions/image/session/1754528694829.png)<img width="320" height="205" alt="1754528694829" src="https://github.com/user-attachments/assets/eeba7de6-c232-4574-816b-d269a20305aa" />
+
 
 #### Kinematic chains
 
@@ -234,7 +244,8 @@
 
 **One end is typically fixed (the base link), and the other is free to move**
 
-![1754529769070](https://file+.vscode-resource.vscode-cdn.net/c%3A/Users/Osama%20Helal/Desktop/mms%20sessions/image/session/1754529769070.png)
+![1754529769070](https://file+.vscode-resource.vscode-cdn.net/c%3A/Users/Osama%20Helal/Desktop/mms%20sessions/image/session/1754529769070.png)<img width="473" height="256" alt="1754529769070" src="https://github.com/user-attachments/assets/fd132512-c719-4324-b594-5a496c358b20" />
+
 
 ##### Closed Kinematic Chain
 
@@ -242,11 +253,13 @@
 
 **these links and joints can be imaginary, like : swarm robotics**
 
-![1754530081108](image/session/1754530081108.png)
+![1754530081108](image/session/1754530081108.png)<img width="493" height="390" alt="1754530081108" src="https://github.com/user-attachments/assets/97924f7c-8554-4fe8-9a25-8a7f0b923026" />
+
 
 **both ends are constrained, often connected back to the base or another point in the system, like delta robots**
 
-![1754530026720](image/session/1754530026720.png)
+![1754530026720](image/session/1754530026720.png)<img width="513" height="288" alt="1754530026720" src="https://github.com/user-attachments/assets/3d267987-6c1e-4272-b8ec-6a37554fbf52" />
+
 
 ---
 
@@ -261,18 +274,24 @@
 **it can contain a 4wd or 2wd (using gears for transmiting torque for all the wheels) or 2wd and a caster wheel**
 
 ![1754530309314](image/session/1754530309314.png) ![1754531393806](image/session/1754531393806.png)
+<img width="486" height="324" alt="1754531393806" src="https://github.com/user-attachments/assets/c0c57d0f-802a-4f74-876a-475ef1f47c1e" />
+<img width="327" height="338" alt="1754530320751" src="https://github.com/user-attachments/assets/56437350-7bb1-404d-901a-1884878546b9" />
+<img width="299" height="291" alt="1754530309314" src="https://github.com/user-attachments/assets/98e9af0e-8c44-4261-84ba-308aede51cbd" />
 
 ![1754530320751](image/session/1754530320751.png)
 
 **its reduction is a unicycle or 2wd model**
 
 ![1754530338850](image/session/1754530338850.png)      ![1754531373126](image/session/1754531373126.png)
+<img width="445" height="253" alt="1754531373126" src="https://github.com/user-attachments/assets/bb1af3fc-6357-4635-862e-c1355a1baf7b" />
+<img width="335" height="283" alt="1754530338850" src="https://github.com/user-attachments/assets/f8c4e3af-020a-43ac-9f90-75c4b01db749" />
 
 ##### Bicycle model (for car like robots)
 
 **a steering control wheel and a lateral control wheel**
 
-![1754531824272](image/session/1754531824272.png)
+![1754531824272](image/session/1754531824272.png)<img width="627" height="510" alt="1754531824272" src="https://github.com/user-attachments/assets/965759c0-de35-4816-a07e-f4bd194aa939" />
+
 
 ##### omni directional model
 
@@ -285,12 +304,17 @@
 ![1754532346803](image/session/1754532346803.png)
 
 ![1754532442805](image/session/1754532442805.png)
+<img width="734" height="811" alt="1754532442805" src="https://github.com/user-attachments/assets/a9d7ebb1-0168-46a0-9a47-98221d2f62cb" />
+<img width="624" height="468" alt="1754532346803" src="https://github.com/user-attachments/assets/ea7c57fa-8e1f-493c-ba04-c462f5bf5028" />
+<img width="463" height="450" alt="1754532325110" src="https://github.com/user-attachments/assets/bc37b2c1-a651-4b1e-a81c-9541ba1538be" />
+<img width="547" height="513" alt="1754532295374" src="https://github.com/user-attachments/assets/d5f069b9-45ba-4c6b-acff-e38f71d2f621" />
 
 #### marine robotics
 
 **each thuruster axis of rotation is parallel to the linear velocity**
 
-![1754532564894](image/session/1754532564894.png)
+![1754532564894](image/session/1754532564894.png)<img width="614" height="409" alt="1754532564894" src="https://github.com/user-attachments/assets/7bdb15e9-7a86-41d5-9027-bfca58a9fa87" />
+
 
 #### Aerial robotics
 
@@ -301,6 +325,8 @@
 ![1754532817635](image/session/1754532817635.png)
 
 ![1754532829138](image/session/1754532829138.png)
+<img width="297" height="169" alt="1754532829138" src="https://github.com/user-attachments/assets/ab0b2353-68e8-4cac-ac81-907930c50a82" />
+<img width="624" height="389" alt="1754532817635" src="https://github.com/user-attachments/assets/37abfea6-baa5-48cd-8654-7faf2eb0d593" />
 
 ---
 
@@ -315,6 +341,8 @@
 ![1754533067075](image/session/1754533067075.png)
 
 ![1754533079653](image/session/1754533079653.png)
+<img width="624" height="123" alt="1754533079653" src="https://github.com/user-attachments/assets/e72e335f-cf03-4853-8a72-a775c4934ef0" />
+<img width="350" height="224" alt="1754533067075" src="https://github.com/user-attachments/assets/0d96f1c5-e1bd-45c8-9172-1891dd21086f" />
 
 #### general laws to determine displacement , current vel
 
@@ -322,13 +350,15 @@
 
 ##### at constant acceleration
 
-![1754533092098](image/session/1754533092098.png)
+![1754533092098](image/session/1754533092098.png)<img width="500" height="229" alt="1754533092098" src="https://github.com/user-attachments/assets/c39c8f94-b330-43ea-9ded-fbc7e7e8ccfe" />
+
 
 ##### at variable acceleration
 
 **at discrete time systems we use the euler numerical integration method at a specific time step to calculate the summition instead of the integration**
 
-![1754533637496](image/session/1754533637496.png)
+![1754533637496](image/session/1754533637496.png)<img width="531" height="232" alt="1754533637496" src="https://github.com/user-attachments/assets/93b628eb-0e9e-4c85-a551-8eb76461b67f" />
+
 
 **Practically**
 
@@ -350,7 +380,8 @@
 
 **V = ω * r**
 
-![1754534247991](image/session/1754534247991.png)
+![1754534247991](image/session/1754534247991.png)<img width="525" height="428" alt="1754534247991" src="https://github.com/user-attachments/assets/579e0ee3-a136-4be9-aab5-7bfbe0591acb" />
+
 
 **applying this law at each wheel center and the reference point with a direction of rotation counter clockwise then, we deduce that**
 
@@ -360,7 +391,8 @@
 
 **adding and subtracting these equations resulting in**
 
-![1754534598937](image/session/1754534598937.png)
+![1754534598937](image/session/1754534598937.png)<img width="307" height="71" alt="1754534598937" src="https://github.com/user-attachments/assets/9562935f-fe1b-4319-8e1a-e9741d9e37f4" />
+
 
 **There are three interesting cases with these kinds of drives**
 
@@ -372,7 +404,8 @@
 
 ##### inverse kinematics
 
-![1754537047514](image/session/1754537047514.png)
+![1754537047514](image/session/1754537047514.png)<img width="468" height="436" alt="1754537047514" src="https://github.com/user-attachments/assets/12f39580-1940-4763-8e05-dc1d60c99c50" />
+
 
 **to determine pose & orientation**
 
