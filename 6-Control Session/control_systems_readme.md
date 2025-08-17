@@ -388,7 +388,7 @@ V, ω, and R
 **each wheel linear velocity is coming from a wheel angular velocity ω emanates from the center of the wheel**
 
 **applying (not deriving) inverse kinematics comes before forward kinematics in motion planning**
-**forward kinematics is used only for substituting inverse kinematics**
+**forward kinematics is used only for deducing inverse kinematics**
 
 ---
 ### Low-Level Wheel Controllers
