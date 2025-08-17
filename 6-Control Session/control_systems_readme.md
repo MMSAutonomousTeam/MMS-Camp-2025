@@ -344,7 +344,7 @@ V, ω, and R
 
 **for example**
 
-#### Differential drive controllers
+#### Differential drive model
 
 ##### Forward Kinematics
 
@@ -361,7 +361,8 @@ V, ω, and R
 
 **applying this law at each wheel center and the reference point with a direction of rotation counter clockwise then, we deduce that**
 
-**ω * ( R + l/2 ) = Vr        ω * ( R - l/2 ) = Vl**
+**ω * ( R + l/2 ) = Vr**        
+**ω * ( R - l/2 ) = Vl**
 
 **where l is the distance between the centers of the two wheels : the width of the robot from the center of one wheel to the other , Vr ; Vl are the right and left wheel velocities along the ground , and R is the signed distance from the ICC to the midpoint between thewheels**
 
@@ -380,22 +381,22 @@ V, ω, and R
 
 ##### inverse kinematics
 
-**desired V , ω , x , y , θ → input**
+**desired V , ω → input**
 
 **required wheel velocities Vr , Vl → output**
 
 **each wheel linear velocity is coming from a wheel angular velocity ω emanates from the center of the wheel**
 
 **applying (not deriving) inverse kinematics comes before forward kinematics in motion planning**
-
+**forward kinematics is used only for substituting inverse kinematics**
 
 ---
 ### Low-Level Wheel Controllers
 #### defferintial drive controller
 
 **omega and V_base are given by sliders and joysticks positions respetively**
-**omega and v are insersted in the forward kinematics laws to calculate vl &vr**
-**inverse kinematics is applyied by your mind in manual controllers**
+**omega and v are insersted in the inverse kinematic laws to calculate vl & vr**
+**v and omega are your choise in manual controlling but are dedicated by the path in autononmous controlling**
 
 <img width="2008" height="1636" alt="41598_2024_75500_Fig1_HTML" src="https://github.com/user-attachments/assets/ab09a023-f898-4c4f-b28c-e480dc25a461" />
 
