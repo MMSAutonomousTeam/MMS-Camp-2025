@@ -246,7 +246,9 @@
 
 <img width="299" height="291" alt="1754530309314" src="https://github.com/user-attachments/assets/98e9af0e-8c44-4261-84ba-308aede51cbd" />
 <img width="486" height="324" alt="1754531393806" src="https://github.com/user-attachments/assets/c0c57d0f-802a-4f74-876a-475ef1f47c1e" />
-<img width="327" height="338" alt="1754530320751" src="https://github.com/user-attachments/assets/56437350-7bb1-404d-901a-1884878546b9" />
+
+![light-following-robot-arduino-uno](https://github.com/user-attachments/assets/38049d4c-27ba-4901-8cb4-d97861aa8098)
+
 
 
 **its reduction is a unicycle or 2wd model**
@@ -265,9 +267,12 @@
 
 **reduction is hard because each wheel model has a uniqe axis of rotation**
 
-<img width="547" height="513" alt="1754532295374" src="https://github.com/user-attachments/assets/d5f069b9-45ba-4c6b-acff-e38f71d2f621" />
+![Nexus-Omni-Wheel-Mobile-Robot (1)](https://github.com/user-attachments/assets/c5920271-61b7-4d7f-88df-dc436d9999a3)
+
 <img width="463" height="450" alt="1754532325110" src="https://github.com/user-attachments/assets/bc37b2c1-a651-4b1e-a81c-9541ba1538be" />
-<img width="624" height="468" alt="1754532346803" src="https://github.com/user-attachments/assets/ea7c57fa-8e1f-493c-ba04-c462f5bf5028" />
+
+![Different_Motion_Square_Normal_Mecanum](https://github.com/user-attachments/assets/96f5d515-fcd2-4883-bb99-d49c17377153)
+
 <img width="734" height="811" alt="1754532442805" src="https://github.com/user-attachments/assets/a9d7ebb1-0168-46a0-9a47-98221d2f62cb" />
 
 
