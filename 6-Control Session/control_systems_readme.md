@@ -392,7 +392,7 @@ V, ω, and R
 
 ---
 ### Low-Level Wheel Controllers
-#### defferintial drive controller
+#### differential drive controller
 
 **omega and V_base are given by sliders and joysticks positions respetively**
 **omega and v are insersted in the inverse kinematic laws to calculate vl & vr**
