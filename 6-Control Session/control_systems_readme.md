@@ -153,73 +153,46 @@
 
 ### Kinematic modelling & motion planning process flow
 
-#### Define the Robot Configuration
+  - **Defining the Robot Configuration**
+  - **building a kinematic model**
+  - **applying Forward Kinematics**
+  - **applying Inverse Kinematics**
+  - **Apply a Low Level Controller**
+  - **Apply a Trajectory tracking Controller**
+  - **Position Estimating**
+---
+### Defining the Robot Configuration
 
-**choosing a reference point to control on which oftenis the body-centered**
-
+#### choosing a reference point to control on 
+**often is the body-centered**
 **its better if the RP is co-centered with the center of the wheels**
 
 #### Defining the robot's pose & orientation
-
 **usualy represented as a matrix or array P = [ x , y , θ ]**
-
 **x , y are the cordinates in the global frame , θ is the orientation (heading) of the robot**
 
-#### building a kinematic model
-
-**it may be a relative model like unicycle / bicycle / Omni directional model or a custom designed model when modelling a new machanism**
-
-**forward and inverse kinematic formulas are deriven at this step**
-
-**constrains are taken into considration like :**
-
-- **Any component can't move in a direction orthogonal to its joint axis of rotation**
-- **movementdirection is parallel to the forces & torques which causes the motion**
-
-#### applying Forward Kinematics
-
-**wheel velocities ( Vr , Vl ) → input**
-**robot's linear and angular velocity V , ω → output**
-
-#### applying Inverse Kinematics
-
-**desired V , ω , x , y , θ → input**
-**required wheel velocities Vr , Vl → output**
-
-**notes :**
-
-**each wheel linear velocity is coming from a wheel angular velocity ω emanates from the center of the wheel**
-
-**inverse kinematics come before forward kinematics in motion planning**
-
-#### Apply a Trajectory Controller
-
-**These generate the desired velocities to follow a path**
-
-<img width="1299" height="781" alt="1754526226605" src="https://github.com/user-attachments/assets/1c891622-b686-4e44-a4c6-ffb8bfb7b3cd" />
-
-
-#### Position Estimation
-
-**calculate the position of the robot using its velocity and orientation**
-
-<img width="879" height="687" alt="1754526871006" src="https://github.com/user-attachments/assets/6f863e20-df56-430a-bcc1-16550c1d7bfd" />
-
-
 ---
+### building a kinematic model
 
-### approches of kinematic modelling
+**it may be a relative model or a custom designed model when modelling a new machanism**
 
-**we can apply a reduction to the model because any wheels do the same job move with the same velocity but the total torque is devided between them but torques and forces is a dynamic not kinematic issue**
+**holonomic and nonholonomic constrains are taken into considration**
 
-#### Point mass model
+**forward and inverse kinematic formulas are deriven depending on this step**
 
-**The velocity is resolved into components along the x and y axes No angular rotation**
+**movement direction is parallel to the forces & torques which causes the motion**
+
+**a reduction is applied to the model if possible**
+
+#### approches of kinematic modelling
+##### Point mass model
+
+**The movement is resolved into x,y components but No angular rotation**
 
 <img width="530" height="392" alt="1754528519525" src="https://github.com/user-attachments/assets/fd8c60cb-6e18-4145-a09a-851538aed368" />
 
 
-#### Rigid body model
+##### Rigid body model
 
 **Some reference points is chosen to control on**
 
@@ -230,7 +203,7 @@
 <img width="320" height="205" alt="1754528694829" src="https://github.com/user-attachments/assets/eeba7de6-c232-4574-816b-d269a20305aa" />
 
 
-#### Kinematic chains
+##### Kinematic chains
 
 **a number of indevidual links (== bodies) connected by joints**
 
@@ -238,7 +211,11 @@
 
 **The velocity of each link is resolved into components along the x and y axes & the angular rotation of any link is tanken into considration, then the total linear and angular velocity of the body is calculated**
 
-##### Open Kinematic Chain
+**these links and joints can be imaginary, like : swarm robotics**
+
+<img width="493" height="390" alt="1754530081108" src="https://github.com/user-attachments/assets/97924f7c-8554-4fe8-9a25-8a7f0b923026" />
+
+###### Open Kinematic Chain
 
 **the chain does not form a loop**
 
@@ -247,19 +224,13 @@
 <img width="473" height="256" alt="1754529769070" src="https://github.com/user-attachments/assets/fd132512-c719-4324-b594-5a496c358b20" />
 
 
-##### Closed Kinematic Chain
+###### Closed Kinematic Chain
 
 **a sequence of links and joints that form one or more closed loops**
-
-**these links and joints can be imaginary, like : swarm robotics**
-
-<img width="493" height="390" alt="1754530081108" src="https://github.com/user-attachments/assets/97924f7c-8554-4fe8-9a25-8a7f0b923026" />
-
 
 **both ends are constrained, often connected back to the base or another point in the system, like delta robots**
 
 <img width="513" height="288" alt="1754530026720" src="https://github.com/user-attachments/assets/3d267987-6c1e-4272-b8ec-6a37554fbf52" />
-
 
 ---
 
@@ -285,7 +256,7 @@
 
 ##### Bicycle model (for car like robots)
 
-**a steering control wheel and a lateral control wheel**
+**a steering front wheel and a lateral rear wheel**
 
 <img width="627" height="510" alt="1754531824272" src="https://github.com/user-attachments/assets/965759c0-de35-4816-a07e-f4bd194aa939" />
 
@@ -304,7 +275,7 @@
 
 #### marine robotics
 
-**each thuruster axis of rotation is parallel to the linear velocity**
+**each thuruster axis of rotation is parallel to the movement direction**
 
 <img width="614" height="409" alt="1754532564894" src="https://github.com/user-attachments/assets/7bdb15e9-7a86-41d5-9027-bfca58a9fa87" />
 
@@ -322,6 +293,11 @@
 ---
 
 ### Some fundamental laws of kinematics
+
+V, ω, and R 
+
+![Uniform-cirular-translation](https://github.com/user-attachments/assets/ef931f13-0d79-42d7-8333-474069662710)
+
 
 #### converting angular vel to linear
 
@@ -357,13 +333,19 @@
 
 ---
 
-### Low-Level Wheel Controllers
+### deriving forward & inverse kinematics laws 
 
 **typically used for manual controlling of robotics**
+
+**for example**
 
 #### Differential drive controllers
 
 ##### Forward Kinematics
+
+**wheel velocities ( Vr , Vl ) → input**
+
+**robot's linear and angular velocity V , ω → output**
 
 **The golden fundamental law is**
 
@@ -393,16 +375,25 @@
 
 ##### inverse kinematics
 
-<img width="468" height="436" alt="1754537047514" src="https://github.com/user-attachments/assets/12f39580-1940-4763-8e05-dc1d60c99c50" />
+**desired V , ω , x , y , θ → input**
+
+**required wheel velocities Vr , Vl → output**
+
+**each wheel linear velocity is coming from a wheel angular velocity ω emanates from the center of the wheel**
+
+**applying (not deriving) inverse kinematics comes before forward kinematics in motion planning**
 
 
-**to determine pose & orientation**
+---
+### Low-Level Wheel Controllers
+#### defferintial drive controller
 
-**don't use the integration if you want to determine the velocity**
+**omega and V_base are given by sliders and joysticks positions respetively**
+**omega and v are insersted in the forward kinematics laws to calculate vl &vr**
+**inverse kinematics is applyied by your mind in manual controllers**
 
-**You can use any transformation between polar and Cartesian coordinates at determining any values**
+<img width="2008" height="1636" alt="41598_2024_75500_Fig1_HTML" src="https://github.com/user-attachments/assets/ab09a023-f898-4c4f-b28c-e480dc25a461" />
 
-<img width="256" height="143" alt="1754536645863" src="https://github.com/user-attachments/assets/6d2579a0-99e3-498e-8696-c83287e73b07" />
 
 #### Ackermann Steering Controller
 
@@ -420,6 +411,10 @@
 
 ### Path Tracking / Trajectory Tracking Controllers
 
+**These controllers generate the desired velocities to follow a path**
+
+<img width="1299" height="781" alt="1754526226605" src="https://github.com/user-attachments/assets/1c891622-b686-4e44-a4c6-ffb8bfb7b3cd" />
+
 #### Pure pursuit controller
 
 **aims to reduce cross track error**
@@ -431,6 +426,17 @@
 **aims to reduce heading error**
 
 <img width="434" height="297" alt="1754538072175" src="https://github.com/user-attachments/assets/0eee7863-bf55-40e3-afac-d9f839d1de82" />
+
+---
+### pose & orientation estimating
+
+**calculating the position of the robot using its velocity and orientation**
+
+**You can use any transformation between polar and Cartesian coordinates at determining any values**
+
+<img width="256" height="143" alt="1754536645863" src="https://github.com/user-attachments/assets/6d2579a0-99e3-498e-8696-c83287e73b07" />
+
+<img width="879" height="687" alt="1754526871006" src="https://github.com/user-attachments/assets/6f863e20-df56-430a-bcc1-16550c1d7bfd" />
 
 ---
 
