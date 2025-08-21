@@ -263,7 +263,7 @@
 <img width="627" height="510" alt="1754531824272" src="https://github.com/user-attachments/assets/965759c0-de35-4816-a07e-f4bd194aa939" />
 
 
-##### omni directional model
+##### omni directional & mechanium model
 
 **reduction is hard because each wheel model has a uniqe axis of rotation**
 
