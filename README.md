@@ -76,7 +76,7 @@ Welcome to the repository for the **Autonomous Systems Sessions.** These session
 
 **Instructor:** Osama Helal
 
-**Date**: 2\8\2025
+**Date**: 2\9\2025
 
 * Introduction to control systems
 * Mathematical Modelling
