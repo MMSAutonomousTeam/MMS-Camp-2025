@@ -58,7 +58,7 @@ Welcome to the repository for the **Autonomous Systems Sessions.** These session
 
 **Instructor: Abdelrahman Arafa**
 
-**Date**: 31\8\2025
+**Date**: 2\9\2025
 
 * What is SLAM?
 * Sensors
@@ -68,15 +68,13 @@ Welcome to the repository for the **Autonomous Systems Sessions.** These session
 
 ---
 
-
-
 ## [session  5](5.control/Control.md)
 
 ### *Intro to Control*
 
 **Instructor:** Osama Helal
 
-**Date**: 2\9\2025
+**Date**: 4\9\2025
 
 * Introduction to control systems
 * Mathematical Modelling
