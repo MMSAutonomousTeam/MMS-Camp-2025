@@ -1,7 +1,24 @@
+# ABOUT ME
+## 👋 Hi, I'm Osama Helal
+
+## 🎓 Education
+- 📚 Computer and Control Systems Department (CSE)  
+- 📅 level 200  
+
+## 💡 Experience & Leadership
+- 🔹 Head of Control Team – Motorsports Autonomous Division (2025)  
+- 🔹 Control Team Member – Motorsports Autonomous Division (2024)  
+
+## 🔗 Connect with me
+
+- Linkedin 
+
+	 💼 [click here](https://www.linkedin.com/in/osama-helal-0680b0336)
+---
 # **control systems in robotics**
 
 ---
-
+## Agenda
 - **Understanding the rule of control engineering**
 - **feed back control & Open loop vs closed loop systems**
 - **Control process flow**
